@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    margin-top: 20vh;
+    flex-direction: column;
+    background-color: black;
+}
+.borda{
+    border: white 1vh solid;
+    padding: 0.5vh;
+}
+header{
+    background-color: black;
+    color: white;
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 0.5vh solid;
+}
+main{
+    background-color: black;
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    border: white 0.5vh solid;
+    margin-top: 0.5vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 8vw;
+    height: 8vh;
+    margin: 1vh;
+    border: white 0.5vh solid;
+    border-radius: 1vh;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
